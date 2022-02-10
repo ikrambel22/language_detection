@@ -113,6 +113,6 @@ For this problem, we used 3 classification models:
 #  **Deployement**
 
 
-[You can reach the application on streamlit here.](https://share.streamlit.io/ikrambel22/language_detection/main/streamlitapi.py) 
+[You can reach the application on streamlit here.](https://share.streamlit.io/ikrambel22/language_detection/ikram-pull-branch/streamlitapi.py) 
 
 
