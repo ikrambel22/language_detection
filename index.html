@@ -30,7 +30,7 @@
                   <div class="form-group">
                     <label for="form103" style="color: rgb(136, 131, 131)"> <strong>Predict Text Language (English, French or Moroccan Dialect Darija):</strong> </label>
                     <br><br>
-                    <textarea style='border-radius: 10px 100px / 120px;'id="form103" class="md-textarea form-control" rows="5"  name="Text" placeholder="Enter your Text"  required>{{text}}</textarea>
+                    <textarea style='border-radius: 10px 100px / 120px;'id="form103" class="md-textarea form-control" rows="5"  name="Text" placeholder="Enter your Text"  required>JSON.stringify({ text })</textarea>
                   </div>
                   <br><br>
                   <div class="row d-flex align-items-center">
@@ -51,7 +51,7 @@
     </div>
     <h3 id="prediction" 
     style="margin-left:35%;margin-top: 30px;visibility: visible;font-weight: bold;" > <span>The predicted language is </span>
-    <span style="color: rgb(42, 23, 94);">{{lan}}</span>
+    <span style="color: rgb(42, 23, 94);"> JSON.stringify({ lan })</span>
   </h3>    
   </section>
   
