@@ -36,7 +36,7 @@ def predict():
                     #pred_percentage_for_all=dict(zip(model.classes_,pred_proba[0]))
                     #output=round(l[0])
                     
-                    return render_template("index.html",lan=l[0],text=text)
+                    return render_template("index.html",lan=jsonify(l[0]),text=jsonify(text))
     #return l[0]
     #jsonify({'the language is':l[0]})
     
